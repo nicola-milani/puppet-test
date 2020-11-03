@@ -1,5 +1,5 @@
 node default {
-  include 'docker'
+  include 'docker',
   file {'/root/README':
     ensure => file,
     content => 'This is a readme',
